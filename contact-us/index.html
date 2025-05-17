@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | LegalDocs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-gavel"></i>
+                <span>LegalDocs</span>
+            </div>
+            <nav class="nav">
+                <a href="/">Home</a>
+                <a href="/documents">Documents</a>
+                <a href="/pricing-page/index.html">Pricing</a>
+                <a href="/contact-us/index.html" class="active">Contact</a>
+            </nav>
+            <div class="auth-buttons">
+                <a href="/legal-docs-login/index.html" class="btn btn-outline">Log In</a>
+                <a href="/legal-docs-register/index.html" class="btn btn-primary">Sign Up</a>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="contact-page">
+        <section class="contact-hero">
+            <div class="container">
+                <h1>We're Here to Help</h1>
+                <p>Get in touch with our team for any questions or support</p>
+            </div>
+        </section>
+
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-form-container">
+                        <h2>Send Us a Message</h2>
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your name" required>
+                                <div class="error" id="nameError"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="Your email" required>
+                                <div class="error" id="emailError"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Select a subject</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="support">Technical Support</option>
+                                    <option value="billing">Billing Question</option>
+                                    <option value="partnership">Partnership Opportunity</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <div class="error" id="subjectError"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="6" placeholder="Your message" required></textarea>
+                                <div class="error" id="messageError"></div>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary" id="submitBtn">Send Message</button>
+                        </form>
+                    </div>
+                    
+                    <div class="contact-info">
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <h3>Email Us</h3>
+                            <p>For general inquiries</p>
+                            <a href="mailto:support@legaldocs.com">support@legaldocs.com</a>
+                        </div>
+                        
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <h3>Support Center</h3>
+                            <p>For technical support</p>
+                            <a href="mailto:help@legaldocs.com">help@legaldocs.com</a>
+                            <p>Mon-Fri: 9am-5pm IST</p>
+                        </div>
+                        
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <h3>Our Office</h3>
+                            <p>123 Legal Street</p>
+                            <p>Suite 100</p>
+                            <p>Bhiwandi, Maharashtra 421302</p>
+                        </div>
+                        
+                        <div class="social-links">
+                            <h3>Connect With Us</h3>
+                            <div class="social-icons">
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-cta">
+            <div class="container">
+                <div class="faq-cta-content">
+                    <h2>Have a question? Check our FAQ first</h2>
+                    <p>Many common questions are answered in our comprehensive help center</p>
+                    <a href="/faq" class="btn btn-outline">Visit Help Center</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-gavel"></i>
+                    <span>LegalDocs</span>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Product</h3>
+                        <a href="/features">Features</a>
+                        <a href="/pricing">Pricing</a>
+                        <a href="/templates">Templates</a>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Resources</h3>
+                        <a href="/blog">Blog</a>
+                        <a href="/guides">Guides</a>
+                        <a href="/help">Help Center</a>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Company</h3>
+                        <a href="/about">About Us</a>
+                        <a href="/careers">Careers</a>
+                        <a href="/contact">Contact</a>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Legal</h3>
+                        <a href="/privacy">Privacy</a>
+                        <a href="/terms">Terms</a>
+                        <a href="/security">Security</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 LegalDocs. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

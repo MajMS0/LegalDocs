@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LegalEase - Create Legal Documents Online</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fas fa-gavel"></i>
+                <span>LegalDocs</span>
+            </div>
+            
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#documents">Documents</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#pricing">Pricing</a>
+            </div>
+            
+            <div class="auth-buttons">
+                <a href="/legal-docs-login/index.html">
+                <button class="btn btn-outline">Login</button> 
+            </a>
+                <a href="/legal-docs-register/index.html">
+                <button class="btn btn-primary">Sign Up</button> 
+            </a>
+            </div>
+            
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Professional Legal Documents in Minutes</h1>
+            <p>Create customized, lawyer-approved contracts and agreements without the high costs.</p>
+            <div class="cta-buttons">
+                <button class="btn btn-primary" id="createDocBtn">Create Document</button>
+                <!-- Temp hide
+                <button class="btn btn-outline">Browse Templates</button> -->
+                
+            </div>
+        </div>
+    </section>
+    
+    <!-- Document Categories -->
+    <section class="categories" id="documents">
+        <div class="section-title">
+            <h2>Popular Legal Documents</h2>
+            <p>Choose from our library of professionally drafted templates</p>
+        </div>
+        
+        <div class="category-grid">
+            <!-- Business Documents -->
+            <div class="category-card">
+                <div class="card-header">
+                    <h3><i class="fas fa-briefcase"></i> Business</h3>
+                </div>
+                <div class="card-body">
+                    <ul class="document-list">
+                        <li>Non-Disclosure Agreement</li>
+                        <li>Employment Contract</li>
+                        <li>LLC Operating Agreement</li>
+                        <li>Independent Contractor</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-outline view-docs" data-category="business">View All</button>
+                </div>
+            </div>
+            
+            <!-- Personal Documents -->
+            <div class="category-card">
+                <div class="card-header">
+                    <h3><i class="fas fa-user"></i> Personal</h3>
+                </div>
+                <div class="card-body">
+                    <ul class="document-list">
+                        <li>Adhaar card</li>
+                        <li>Pan card</li>
+                        <li>Passport</li>
+                        <li>Voter id card</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-outline view-docs" data-category="personal">View All</button>
+                </div>
+            </div>
+            
+            <!-- Real Estate Documents -->
+            <div class="category-card">
+                <div class="card-header">
+                    <h3><i class="fas fa-home"></i> Real Estate</h3>
+                </div>
+                <div class="card-body">
+                    <ul class="document-list">
+                        <li>Lease Agreement</li>
+                        <li>Purchase Agreement</li>
+                        <li>Eviction Notice</li>
+                        <li>Property Deed</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-outline view-docs" data-category="real-estate">View All</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- How It Works -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="section-title">
+            <h2>How It Works</h2>
+            <p>Create your document in just 3 simple steps</p>
+        </div>
+        
+        <div class="steps">
+            <div class="step">
+                <div class="step-icon">
+                    <span>1</span>
+                </div>
+                <h3>Select Document</h3>
+                <p>Choose from our library of professional templates</p>
+            </div>
+            
+            <div class="step">
+                <div class="step-icon">
+                    <span>2</span>
+                </div>
+                <h3>Answer Questions</h3>
+                <p>Fill out our simple questionnaire</p>
+            </div>
+            
+            <div class="step">
+                <div class="step-icon">
+                    <span>3</span>
+                </div>
+                <h3>Download & Sign</h3>
+                <p>Get your document in multiple formats</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Pricing -->
+    <section class="pricing" id="pricing">
+        <div class="section-title">
+            <h2>Simple, Transparent Pricing</h2>
+            <p>No hidden fees - cancel anytime</p>
+        </div>
+        
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <h3>Pay Per Document</h3>
+                    <div class="price">100rs<span>/doc</span></div>
+                </div>
+                <ul class="pricing-features">
+                    <li>1 document download</li>
+                    <li>PDF & Word formats</li>
+                    <li>Email support</li>
+                    <li>7-day revisions</li>
+                </ul>
+                <button class="btn btn-outline">Get Started</button>
+            </div>
+            
+            <div class="pricing-card featured">
+                <div class="pricing-header">
+                    <h3>Monthly Membership</h3>
+                    <div class="price">150rs<span>/month</span></div>
+                </div>
+                <ul class="pricing-features">
+                    <li>Unlimited documents</li>
+                    <li>Priority support</li>
+                    <li>E-signature integration</li>
+                    <li>Document storage</li>
+                </ul>
+                <a href="/pricing-page/index.html">
+                <button class="btn btn-primary">Get Started</button>
+                </a>
+            </div>
+            
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <h3>Annual Membership</h3>
+                    <div class="price">999rs<span>/year</span></div>
+                </div>
+                <ul class="pricing-features">
+                    <li>Unlimited documents</li>
+                    <li>All premium features</li>
+                    <li>Save 30%</li>
+                    <li>Free legal guides</li>
+                </ul>
+                <button class="btn btn-outline">Get Started</button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="section-title">
+            <h2>What Our Customers Say</h2>
+            <p>Trusted by thousands of individuals and businesses</p>
+        </div>
+        
+        <div class="testimonial-grid">
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    "Created my LLC agreement in 15 minutes. Saved me hundreds in legal fees!"
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-avatar">JD</div>
+                    <div class="author-info">
+                        <h4>Usama Momin.</h4>
+                        <p>Small Business Owner</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    "The rental agreement was exactly what I needed. So much easier than hiring a lawyer."
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-avatar">SM</div>
+                    <div class="author-info">
+                        <h4>Sarah Mansoori.</h4>
+                        <p>Landlord</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    "As a freelancer, I use LegalEase for all my client contracts. It's saved me so much time."
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-avatar">AP</div>
+                    <div class="author-info">
+                        <h4>Majid Shaikh.</h4>
+                        <p>Freelance Designer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="cta-content">
+            <h2>Ready to Create Your Legal Document?</h2>
+            <p>Join over 100,000 satisfied customers today</p>
+            <button class="btn btn-primary">Get Started - It's Free</button>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>LegalDocs</h3>
+                <p>Making legal documents simple and affordable for everyone.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Documents</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Personal</a></li>
+                    <li><a href="#">Real Estate</a></li>
+                    <li><a href="#">All Documents</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Company</h3>
+                <ul class="footer-links">
+                    <li><a href="/about-us/index.html">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="/contact-us/index.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Legal</h3>
+                <ul class="footer-links">
+                    <li><a href="/terms-of-service/index.html">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            &copy; 2025 LegalEase. All rights reserved.
+        </div>
+    </footer>
+    
+    <!-- Document Builder Modal -->
+    <div class="modal" id="documentModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Create Your Document</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="documentForm">
+                    <div class="form-group">
+                        <label for="docType">Document Type</label>
+                        <select id="docType" class="form-control" required>
+                            <option value="">Select a document</option>
+                            <option value="nda">Adhar card</option>
+                            <option value="lease">Rental Agreement</option>
+                            <option value="will">Pan card</option>
+                            <option value="contract">Employment Contract</option>
+                            <option value="contract">Passport</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="party1">Your Name</label>
+                        <input type="text" id="party1" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="party2">Other Party's Name</label>
+                        <input type="text" id="party2" class="form-control">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="effectiveDate">Effective Date</label>
+                        <input type="date" id="effectiveDate" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="state">Governing State Law</label>
+                        <select id="state" class="form-control">
+                            <option value="CA">Nashik</option>
+                            <option value="NY">Mumbai</option>
+                            <option value="TX">Thane</option>
+                            <option value="FL">Pune</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-outline close-modal">Cancel</button>
+                <button class="btn btn-primary" id="generateDocBtn">Generate Document</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content success">
+            <div class="modal-header">
+                <h3>Document Created Successfully!</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="success-icon">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <p>Your legal document is ready to download.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-outline">Save to Account</button>
+                <button class="btn btn-primary">Download Now</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
